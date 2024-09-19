@@ -33,7 +33,9 @@ jobs:
             wget \
             zip \
             p7zip-full \
-            unzip
+            unzip \
+            git \
+            curl
 
     - name: Setup toolchain
       run: |
